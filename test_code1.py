@@ -29,7 +29,11 @@ foreground = cv2.bitwise_and(img, img, mask=binary_img)
 cv2.imwrite('foreground.png', foreground)
 cv2.imshow('img', foreground)
 
-cv2.waitKey(0)
+cv2.waitKey(1000)
+
+
+
+print("changed")
 
 # img = Image.open(r'C:\Users\liguangzhi-001\Desktop\yc6_point.png')
 # img.show()
