@@ -5,7 +5,7 @@ import random
 import pandas as pd  
 from PIL import Image
 
-img = cv2.imread(r'C:\Users\liguangzhi-001\Desktop\yc6_point.png')
+img = cv2.imread(r'.\yc6_point.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2BGRA)
 # 找到图像中的黑色像素
 indices = np.where((img[:,:,0] == 0) & (img[:,:,1] == 0) & (img[:,:,2] == 0))
